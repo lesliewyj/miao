@@ -1,0 +1,22 @@
+模拟数据，先使用假数据后面再替换，模拟工具、捉包工具：Charles
+
+模拟数据之前首先要准备数据接口，然后使用模拟工具去弄假数据
+
+跨域问题：反常代理，代理接口，不然假数据接口使用不了
+
+建立配置环境：在项目目录下创建vue.config.js文件，在里面配置环境
+
+cnpm不是内部命令的解决方案：配置环境变量
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+1
+安装完了之后检查是否安装成功。
+cnpm -v
+
+反常代理数据：在mounted代理数据
+
+引入接口，因为太多接口引入所以可以在mian.js中引入
+
+当在控制台出现：Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools时：安装vue-devtools调试器
+
+
