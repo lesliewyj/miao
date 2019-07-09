@@ -20,3 +20,17 @@ cnpm -v
 https://github.com/vuejs/vue-devtools时：安装vue-devtools调试器
 
 
+touchstart:无论是点击还是滑动都会触发
+
+滑动不触发点击再触发：tap:zepto  vue-touch  better-scroll
+
+非常流畅地滑动:iscroll   better-scroll   swiper
+
+activated   :     keep-alive 组件激活时调用
+
+mounted只会触发一次再点点击时不会触发，可以选择activated 生命周期
+
+弹框实现MessageBox
+
+vue.extend方法，看
+
