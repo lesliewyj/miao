@@ -4,7 +4,7 @@ import router from "./routers";
 import store from "./stores";
 
 // 引入axios库
-import axios from 'axios'
+import axios from 'axios';
 Vue.prototype.axios=axios;
 
 Vue.filter('setWH',(url,arg)=>{

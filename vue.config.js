@@ -1,5 +1,11 @@
 module.exports ={
+    //设置静态资源的访问路径为文件名
+    // publicPath:'/miao',
     devServer:{
+        // host: "192.168.9.27",
+        // port: 8080,
+        // https:false,
+        // open:true,
         proxy:{
             '/api':{
                 target:'http://39.97.33.178',
